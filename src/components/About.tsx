@@ -6,7 +6,7 @@ export default function About() {
       <div className="mx-auto max-w-5xl px-6 py-20 sm:px-10">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-pulse">Sobre mí</p>
 
-        <p className="mt-6 max-w-3xl font-body text-2xl leading-relaxed text-ink sm:text-2xl">
+        <p className="mt-6 max-w-3xl font-body text-xl leading-relaxed text-inkSoft sm:text-xl">
           {profile.intro}
         </p>
 

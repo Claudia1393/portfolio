@@ -64,11 +64,7 @@ export default function Projects() {
   return (
     <section id="proyectos" className="border-t border-line bg-panel">
       <div className="mx-auto max-w-5xl px-6 py-20 sm:px-10">
-        <p className="font-mono text-xs uppercase tracking-[0.2em] text-pulse">Proyectos</p>
-        <h2 className="mt-3 font-display text-3xl text-ink sm:text-4xl">
-          Cosas que he construido
-        </h2>
-
+        <p className="font-mono text-xs uppercase tracking-[0.2em] text-pulse"> Mis proyectos</p>
         <div className="mt-10 flex flex-col gap-8">
           {projects.map((project) => (
             <ProjectCard key={project.name} project={project} />

@@ -43,13 +43,13 @@ export interface Language {
 
 export const profile: Profile = {
   name: 'Claudia Bernabé Iniesta',
-  roles: ['Desarrolladora Fullstack Junior'],
+  roles: ['Desarrolladora Full Stack Junior'],
   location: 'Vitoria-Gasteiz, Álava',
   email: 'c.bernabe27@gmail.com',
   phone: '651 14 28 68',
   github: 'https://github.com/Claudia1393',
   intro:
-    'Desarrolladora fullstack junior especializada en entornos .NET y JavaScript/TypeScript. Tras graduarme en el ciclo superior de DAM, he consolidado mis conocimientos técnicos trabajando en proyectos reales, desarrollando software de extremo a extremo: tanto la lógica de negocio del servidor como la interfaz visual. Antes de esto pasé varios años como enfermera, una etapa que me dejó capacidad de adaptación, resiliencia y una forma muy práctica de resolver problemas bajo presión.',
+    'Desarrolladora full stack junior especializada en entornos .NET y JavaScript/TypeScript. Tras graduarme en el ciclo superior de DAM, he consolidado mis conocimientos técnicos trabajando en proyectos reales, desarrollando software de extremo a extremo: tanto la lógica de negocio del servidor como la interfaz visual. Antes de esto pasé varios años como enfermera, una etapa que me dejó capacidad de adaptación, resiliencia y una forma muy práctica de resolver problemas bajo presión.',
 }
 
 export const skills: SkillGroup[] = [
