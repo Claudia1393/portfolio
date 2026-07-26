@@ -41,6 +41,15 @@ export interface Language {
   level: string
 }
 
+export interface Testimonial {
+  author: string
+  role: string
+  company: string
+  date: string
+  content: string
+  email: string
+}
+
 export const profile: Profile = {
   name: 'Claudia Bernabé Iniesta',
   roles: ['Desarrolladora Full Stack Junior'],
@@ -124,4 +133,21 @@ export const education: EducationItem[] = [
 export const languages: Language[] = [
   { name: 'Castellano', level: 'Nativo' },
   { name: 'Inglés', level: 'B2 · Título Aptis ESOL (British Council)' },
+]
+
+export const testimonials: Testimonial[] = [
+  {
+    author: 'Eneko Pérez Oria',
+    role: 'Senior Software Developer',
+    company: 'Externalia S.L',
+    date: '15 de junio de 2026',
+    email: 'eneko.perez@externalia.com',
+    content: `Claudia ha realizado su formación dual en Externalia durante el período comprendido entre 07/2025 y 06/2026, bajo mi tutorización directa en el equipo de desarrollo de software.
+
+Durante este tiempo, Claudia ha participado activamente en proyectos de desarrollo de software, demostrando una sólida capacidad de aprendizaje y una actitud proactiva ante los retos técnicos. Entre sus contribuciones destacan el desarrollo de integraciones API, desarrollos full-stack para una aplicación SaaS y el análisis y posterior resolución de incidencias. Su evolución a lo largo del año ha sido notable, adaptándose con rapidez a las herramientas, metodologías y flujos de trabajo del equipo.
+
+Más allá de sus competencias técnicas, Claudia ha destacado por su responsabilidad, su capacidad para trabajar en equipo y su disposición para asumir nuevas responsabilidades. Ha sabido comunicarse con claridad tanto con el equipo técnico como con otros interlocutores.
+
+Considero que Claudia reúne las condiciones personales y profesionales para integrarse con éxito en cualquier equipo de desarrollo de software. La recomiendo sin reservas y confío plenamente en que será una aportación valiosa para cualquier organización que tenga la oportunidad de contar con ella.`,
+  },
 ]
