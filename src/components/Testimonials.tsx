@@ -77,6 +77,14 @@ export default function Testimonials() {
                     <p className="font-display text-lg text-ink">{testimonial.author}</p>
                     <p className="font-mono text-xs text-inkSoft">{testimonial.role}</p>
                     <p className="font-mono text-xs text-inkSoft">{testimonial.date}</p>
+                    {testimonial.email && (
+                      <a
+                        href={`mailto:${testimonial.email}`}
+                        className="font-mono text-xs text-pulse hover:text-pulse/80 transition-colors"
+                      >
+                        {testimonial.email}
+                      </a>
+                    )}
                   </div>
                 </>
               )}
