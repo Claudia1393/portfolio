@@ -98,6 +98,7 @@ export const experience: TimelineItem[] = [
       'Backend: desarrollo y mantenimiento de aplicaciones web.',
       'Frontend: creación y optimización de interfaces de usuario dinámicas y reactivas.',
       'Bases de datos: diseño, configuración y gestión.',
+      'Testing: implementación de pruebas unitarias y end-to-end para garantizar la calidad del código.',
     ],
   },
   {
